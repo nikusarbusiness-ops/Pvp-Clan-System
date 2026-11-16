@@ -1,0 +1,13 @@
+combat:
+  # Sekunden im Kampf nach einem Treffer
+  seconds: 20
+  # Befehle sperren, solange man im Kampf ist
+  block-commands: true
+  blocked-commands: [spawn, home, tpa, tpaccept, tp, warp, back, kit, sethome]
+clan:
+  max-members: 10
+  # false = Clan-Mitglieder können sich nicht gegenseitig schlagen
+  friendly-fire: false
+loot:
+  # Sekunden Zeit für die Item-Auswahl (danach wird zufällig gewählt)
+  pick-seconds: 30

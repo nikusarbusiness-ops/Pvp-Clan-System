@@ -1,0 +1,16 @@
+name: ClanPvP
+version: 1.0.0
+main: de.clanpvp.ClanPlugin
+api-version: '1.21'
+description: Clans, Clan-Chat, Combat-System mit Loot-Menü und Spielerrekord
+commands:
+  clan:
+    description: Clan-Befehle
+    usage: /clan <create|invite|accept|leave|kick|disband|info|list|chat>
+    aliases: [clans]
+  cc:
+    description: Clan-Chat (ohne Text = an/aus)
+    usage: /cc [Nachricht]
+  rekord:
+    description: Zeigt den Allzeit-Spielerrekord
+    usage: /rekord
